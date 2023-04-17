@@ -1,0 +1,170 @@
+*
+{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.right
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.list
+{
+    display: flex;
+    padding: 16px;
+}
+.pop
+{
+    justify-content: space-between;
+    margin-right: 30px;
+    font-size: 16px;
+    list-style: none;
+}
+.tesxt
+{
+    text-decoration: none;
+    color: black;
+}
+.flow
+{
+    border-radius: 25px;
+}
+.imgo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hond
+{
+    width: 355px;
+    margin-top: 5px;
+}
+#search
+{
+    margin-top: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.int
+{
+    outline: none;
+    width: 40vw;
+    padding: 8px 39px;
+    border: 2px solid #ccc;
+    border-radius: 22px;
+}
+.bi{
+    position: absolute;
+    transform: translate(25px,-8px);
+    cursor: text;
+    pointer-events: none;
+}
+.btn{
+    border: 2px solid #ccc;
+    border-radius: 22px;
+    outline: none;
+}
+.btn:hover
+{
+    outline: none;
+    background-color: lightgrey;
+}
+.btn-sm
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+.bot
+{
+    background-color: rgb(238, 243, 255);
+    margin-top: 25px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 10vw;
+    padding: 5px 5px;
+    outline: none;
+}
+.big
+{
+    background-color: rgb(238, 243, 255);
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid #ccc;
+    width: 10vw;
+    padding: 5px 5px;
+    outline: none;
+    margin-left: 15px;
+}
+.nope
+{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nope{
+    text-decoration-color: blue;
+}
+.kon
+{
+    font-size: 15px;
+    padding: 25px;
+    justify-content: space-between;
+}
+.oop
+{
+    padding: 4px;
+    text-decoration: none;
+}
+.paras
+{
+    margin-left: 15px;
+    background-color: rgb(248, 247, 247);
+    padding: 15px 0px;
+    margin-bottom: unset;
+}
+.pond
+{
+    font-size: 14px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(163, 162, 162);
+    margin-left: 15px;
+}
+.up
+{
+    margin-left: 25px;
+}
+.sis
+{
+   margin-left: 70vw;
+}
+.pond:hover
+{
+    color: rgb(163, 162, 162);
+    text-decoration-line: underline;
+}
+
+.bin
+{
+    margin-top: unset;
+    margin-bottom: unset;
+}
+@media screen and (max-width: 750px) {
+    .bot, .big
+    {
+        width: 30vw;
+    }
+    .int
+    {
+        width: 75%;
+    }
+}
